@@ -1,0 +1,28 @@
+{
+  "name": "block-markup-migrator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "env:start": "wp-env start",
+    "env:stop": "wp-env stop",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "lint:js": "wp-scripts lint-js",
+    "lint:js:fix": "wp-scripts lint-js --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/wordpress__blocks": "^12.5.8",
+    "@wordpress/components": "^25.11.0",
+    "@wordpress/core-data": "^6.22.0",
+    "@wordpress/edit-post": "^7.22.0",
+    "@wordpress/icons": "^9.36.0",
+    "@wordpress/notices": "^4.13.0",
+    "@wordpress/plugins": "^6.13.0",
+    "@wordpress/scripts": "^26.16.0",
+    "react": "^18.2.0",
+    "react-diff-viewer-continued": "^3.3.1"
+  }
+}

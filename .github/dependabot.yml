@@ -1,0 +1,10 @@
+version: 2
+
+updates:
+ -  directory: /
+    package-ecosystem: npm
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: '[DEPS]: update dependency'
