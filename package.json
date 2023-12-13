@@ -20,7 +20,7 @@
     "@wordpress/edit-post": "^7.22.0",
     "@wordpress/icons": "^9.36.0",
     "@wordpress/notices": "^4.13.0",
-    "@wordpress/plugins": "^6.13.0",
+    "@wordpress/plugins": "^6.16.0",
     "@wordpress/scripts": "^26.16.0",
     "react": "^18.2.0",
     "react-diff-viewer-continued": "^3.3.1"
