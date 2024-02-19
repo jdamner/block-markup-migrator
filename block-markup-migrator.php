@@ -38,3 +38,11 @@ add_action(
 		);
 	}
 );
+
+add_action(
+	'plugins_loaded', 
+	function () { 
+		require_once __DIR__ . './inc/BlockMigration.php';
+		( new BlockMarkupMigrator() )->init();
+	}
+);
